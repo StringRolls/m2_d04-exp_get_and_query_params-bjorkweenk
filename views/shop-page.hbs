@@ -1,0 +1,24 @@
+<h1>The store!</h1>
+
+<hr>
+
+<h3>Example with the route (URL) params:</h3>
+<a class="btn btn-md btn-dark" href="/store/clothes/winter/coat">Check URL params (the URL is:
+    localhost:3000/store/clothes/winter/coat) </a>
+
+<hr>
+
+<h3>Example with the route query strings:</h3>
+<a class="btn btn-md btn-dark" href="/store/search/?name=sweater&size=M&color=maroon">Check query strings:</a>
+
+<hr>
+
+<h3>Search form (to get the query strings)</h3>
+
+<form method="GET" action="/store/search">
+    Name: <input type="text" name="name">
+    Size: <input type="text" name="size">
+    Color: <input type="text" name="color">
+
+    <button type="submit">Search</button>
+</form>
